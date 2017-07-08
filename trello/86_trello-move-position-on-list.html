@@ -1,0 +1,37 @@
+<script type="text/javascript">
+    RED.nodes.registerType('trello-move-position-on-list', {
+      category: 'output',
+      color: '#8BBDD9',
+      defaults: {
+        trello: {value:'', type:'trello-credentials', required:true},
+        idCard: {value: '', required: false},
+        pos: {value: '', required: false},
+      },
+      inputs:1,
+      outputs:1,
+      icon: "trello.png",
+      label: function() {
+          return this.name || "move position on list";
+      },
+      paletteLabel: "move position on list"
+    });
+</script>
+
+<script type="text/x-red" data-template-name="trello-move-position-on-list">
+    <div class="form-row">
+      <label for="node-input-trello">Trello</label>
+      <input id="node-input-trello"></input>
+    </div>
+    <div class="form-row">
+      <label for="node-input-idCard">Card ID</label>
+      <input type="text" id="node-input-idCard">
+    </div>
+    <div class="form-row">
+      <label for="node-input-pos">List ID</label>
+      <input type="text" id="node-input-pos">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="trello-move-position-on-list">
+    <p>move the position on the list</p>
+</script>

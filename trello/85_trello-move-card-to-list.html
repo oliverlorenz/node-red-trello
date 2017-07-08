@@ -1,0 +1,37 @@
+<script type="text/javascript">
+    RED.nodes.registerType('trello-move-card-to-list', {
+      category: 'output',
+      color: '#8BBDD9',
+      defaults: {
+        trello: {value:'', type:'trello-credentials', required:true},
+        idList: {value: '', required: false},
+        idCard: {value: '', required: false},
+      },
+      inputs:1,
+      outputs:1,
+      icon: "trello.png",
+      label: function() {
+          return this.name || "move card to list";
+      },
+      paletteLabel: "move card to list"
+    });
+</script>
+
+<script type="text/x-red" data-template-name="trello-move-card-to-list">
+    <div class="form-row">
+      <label for="node-input-trello">Trello</label>
+      <input id="node-input-trello"></input>
+    </div>
+    <div class="form-row">
+      <label for="node-input-idCard">Card ID</label>
+      <input type="text" id="node-input-idCard">
+    </div>
+    <div class="form-row">
+      <label for="node-input-idList">List ID</label>
+      <input type="text" id="node-input-idList">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="trello-move-card-to-list">
+    <p>A node to get a list boards</p>
+</script>

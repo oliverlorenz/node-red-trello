@@ -19,7 +19,9 @@
       "trello-add-card": "trello/81_trello-add-card.js",
       "trello-add-checkitem": "trello/82_trello-add-checkitem.js",
       "trello-get-list": "trello/83_trello-get-list.js",
-      "trello-get-list-cards": "trello/84_trello-get-list-cards.js"
+      "trello-get-list-cards": "trello/84_trello-get-list-cards.js",
+      "trello-move-card-to-list": "trello/85_trello-move-card-to-list.js",
+      "trello-move-position-on-list": "trello/86_trello-move-position-on-list.js"
     }
   },
   "repository": {

@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    RED.nodes.registerType('trello-close-card', {
+      category: 'output',
+      color: '#8BBDD9',
+      defaults: {
+        trello: {value:'', type:'trello-credentials', required:true},
+        idCard: {value: '', required: false}
+      },
+      inputs:1,
+      outputs:1,
+      icon: "trello.png",
+      label: function() {
+          return this.name || "close card";
+      },
+      paletteLabel: "close card"
+    });
+</script>
+
+<script type="text/x-red" data-template-name="trello-close-card">
+    <div class="form-row">
+      <label for="node-input-trello">Trello</label>
+      <input id="node-input-trello"></input>
+    </div>
+    <div class="form-row">
+      <label for="node-input-idCard">Card ID</label>
+      <input type="text" id="node-input-idCard">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="trello-close-card">
+    <p>archives/close a card</p>
+</script>

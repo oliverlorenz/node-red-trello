@@ -8,7 +8,7 @@
     "node-trello": "^1.1.2"
   },
   "devDependencies": {
-    "standard": "^3.0.0"
+    "standard": "^10.0.3"
   },
   "keywords": [
     "node-red"

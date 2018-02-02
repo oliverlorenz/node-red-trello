@@ -23,7 +23,8 @@
       "trello-move-card-to-list": "trello/85_trello-move-card-to-list.js",
       "trello-move-position-on-list": "trello/86_trello-move-position-on-list.js",
       "trello-add-comment": "trello/87_trello-add-comment.js",
-      "trello-create-checklist": "trello/88_trello-create-checklist.js"
+      "trello-create-checklist": "trello/88_trello-create-checklist.js",
+      "trello-delete-card": "trello/89_trello-delete-card.js"
     }
   },
   "repository": {

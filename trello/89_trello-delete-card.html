@@ -1,0 +1,32 @@
+<script type="text/javascript">
+    RED.nodes.registerType('trello-delete-card', {
+      category: 'output',
+      color: '#8BBDD9',
+      defaults: {
+        trello: {value:'', type:'trello-credentials', required:true},
+        idCard: {value: '', required: false}
+      },
+      inputs:1,
+      outputs:1,
+      icon: "trello.png",
+      label: function() {
+          return this.name || "delete card";
+      },
+      paletteLabel: "delete card"
+    });
+</script>
+
+<script type="text/x-red" data-template-name="trello-delete-card">
+    <div class="form-row">
+      <label for="node-input-trello">Trello</label>
+      <input id="node-input-trello"></input>
+    </div>
+    <div class="form-row">
+      <label for="node-input-idCard">Card ID</label>
+      <input type="text" id="node-input-idCard">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="trello-delete-card">
+    <p>move the position on the list</p>
+</script>

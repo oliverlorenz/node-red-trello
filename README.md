@@ -1,6 +1,8 @@
 node-red-contrib-trello
 =======================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/oliverlorenz/node-red-trello.svg)](https://greenkeeper.io/)
+
 A set of input and output nodes for connecting node-red to trello.
 
 ## Install via NPM

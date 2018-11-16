@@ -1,0 +1,16 @@
+{
+  "trello-get-new-card": {
+    "label": {
+      "selectBoardID": "Board ID",
+      "selectListID": "List ID"
+    },
+    "hint":{
+      "noTrelloCredentials": "Please select Trello credentials first",
+      "boardListLoading": "Loading Boards...",
+      "boardListUnselected": "Select a Board to narrow results",
+      "listListBoardUnselected": "Please select a board first",
+      "listListLoading": "Loading Lists...",
+      "listListUnselected": "Select a List to narrow results"
+    }
+  }
+}

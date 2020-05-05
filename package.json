@@ -25,7 +25,8 @@
       "trello-add-comment": "trello/87_trello-add-comment.js",
       "trello-create-checklist": "trello/88_trello-create-checklist.js",
       "trello-delete-card": "trello/89_trello-delete-card.js",
-      "trello-close-card": "trello/90_trello-close-card.js"
+      "trello-close-card": "trello/90_trello-close-card.js",
+      "trello-get-new-card": "trello/trello-get-new-card/trello-get-new-card.js"
     }
   },
   "repository": {
